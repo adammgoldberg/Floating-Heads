@@ -21,23 +21,23 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMO-8v-B36" customClass="FloatingButton" customModule="FloatingHeads" customModuleProvider="target">
-                                <rect key="frame" x="527" y="530" width="42" height="42"/>
+                                <rect key="frame" x="538" y="538" width="42" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="5Xq-t3-Auo"/>
                                     <constraint firstAttribute="width" constant="42" id="CHB-gG-liz"/>
                                 </constraints>
                                 <state key="normal" image="icon-add"/>
                                 <connections>
-                                    <segue destination="1Dk-e9-qqv" kind="presentation" identifier="ShowBlur" animates="NO" id="GKP-Oi-is0"/>
+                                    <segue destination="1Dk-e9-qqv" kind="presentation" identifier="ShowBlur" animates="NO" modalTransitionStyle="crossDissolve" id="GKP-Oi-is0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XY2-Pf-Ebd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4PC-IO-vMZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EMO-8v-B36" secondAttribute="bottom" constant="28" id="6sj-Yg-N9e"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EMO-8v-B36" secondAttribute="bottom" constant="20" id="6sj-Yg-N9e"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XY2-Pf-Ebd" secondAttribute="bottom" id="QW1-6z-kLU"/>
-                            <constraint firstAttribute="trailing" secondItem="EMO-8v-B36" secondAttribute="trailing" constant="31" id="V5T-PU-v5b"/>
+                            <constraint firstAttribute="trailing" secondItem="EMO-8v-B36" secondAttribute="trailing" constant="20" id="V5T-PU-v5b"/>
                             <constraint firstAttribute="trailing" secondItem="XY2-Pf-Ebd" secondAttribute="trailing" id="oOH-Xe-x4b"/>
                             <constraint firstItem="XY2-Pf-Ebd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="upG-lk-KZZ"/>
                         </constraints>

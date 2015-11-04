@@ -8,17 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, FloatingMenuDelegate {
     
     
     
     @IBOutlet var floatingButton: FloatingButton!
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showBlur" {
+        if segue.identifier == "ShowBlur" {
             let fmvc = segue.destinationViewController as! FloatingMenuControllerViewController
             fmvc.fromView = self.floatingButton
+            fmvc.delegate = self as FloatingMenuDelegate
         }
+    }
+    
+    func floatingMenuViewController(viewController: FloatingMenuControllerViewController, index: Int) {
+        let index = index
+        viewController.dismissViewControllerAnimated(false, completion: nil)
+        print(index)
     }
     
     

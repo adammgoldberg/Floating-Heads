@@ -37,8 +37,12 @@ class FloatingButton: UIButton {
     init(frame: CGRect, image : UIImage, backgroundColor: UIColor) {
         super.init(frame: frame)
         self.frame = frame
-        self.imageView!.image = image
+        self.setImage(image, forState: .Normal)
         self.backgroundColor = backgroundColor
+        self.layer.cornerRadius = 21
+        self.layer.masksToBounds = true
+
+        
     }
 
     required init?(coder aDecoder: NSCoder) {
