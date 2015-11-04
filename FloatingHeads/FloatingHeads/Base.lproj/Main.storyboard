@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FloatingHeads" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inbox" translatesAutoresizingMaskIntoConstraints="NO" id="XY2-Pf-Ebd">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMO-8v-B36" customClass="FloatingButton" customModule="FloatingHeads" customModuleProvider="target">
+                                <rect key="frame" x="527" y="530" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="5Xq-t3-Auo"/>
+                                    <constraint firstAttribute="width" constant="42" id="CHB-gG-liz"/>
+                                </constraints>
+                                <state key="normal" image="icon-add"/>
+                                <connections>
+                                    <segue destination="1Dk-e9-qqv" kind="presentation" identifier="ShowBlur" animates="NO" id="GKP-Oi-is0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XY2-Pf-Ebd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4PC-IO-vMZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EMO-8v-B36" secondAttribute="bottom" constant="28" id="6sj-Yg-N9e"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XY2-Pf-Ebd" secondAttribute="bottom" id="QW1-6z-kLU"/>
+                            <constraint firstAttribute="trailing" secondItem="EMO-8v-B36" secondAttribute="trailing" constant="31" id="V5T-PU-v5b"/>
+                            <constraint firstAttribute="trailing" secondItem="XY2-Pf-Ebd" secondAttribute="trailing" id="oOH-Xe-x4b"/>
+                            <constraint firstItem="XY2-Pf-Ebd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="upG-lk-KZZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="floatingButton" destination="EMO-8v-B36" id="gnV-9Z-Wdc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+        <!--Floating Menu Controller View Controller-->
+        <scene sceneID="1aF-e4-nrs">
+            <objects>
+                <viewController id="1Dk-e9-qqv" customClass="FloatingMenuControllerViewController" customModule="FloatingHeads" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QpH-Y1-b4V"/>
+                        <viewControllerLayoutGuide type="bottom" id="vNj-jz-f5n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wbP-VY-z91">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inbox" translatesAutoresizingMaskIntoConstraints="NO" id="1uT-ln-4N0">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-Dp-8c4">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zGY-aK-Ezl">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1uT-ln-4N0" firstAttribute="leading" secondItem="wbP-VY-z91" secondAttribute="leading" id="3ep-VU-j48"/>
+                            <constraint firstAttribute="trailing" secondItem="M3I-Dp-8c4" secondAttribute="trailing" id="DfH-ex-2TN"/>
+                            <constraint firstItem="M3I-Dp-8c4" firstAttribute="leading" secondItem="wbP-VY-z91" secondAttribute="leading" id="LiK-0z-lBt"/>
+                            <constraint firstItem="M3I-Dp-8c4" firstAttribute="top" secondItem="QpH-Y1-b4V" secondAttribute="bottom" id="Rse-eb-K8a"/>
+                            <constraint firstItem="1uT-ln-4N0" firstAttribute="top" secondItem="QpH-Y1-b4V" secondAttribute="bottom" id="Swx-gz-4e4"/>
+                            <constraint firstAttribute="trailing" secondItem="1uT-ln-4N0" secondAttribute="trailing" id="tz6-KR-0LE"/>
+                            <constraint firstItem="vNj-jz-f5n" firstAttribute="top" secondItem="M3I-Dp-8c4" secondAttribute="bottom" id="vQN-gP-OTi"/>
+                            <constraint firstItem="vNj-jz-f5n" firstAttribute="top" secondItem="1uT-ln-4N0" secondAttribute="bottom" id="yIw-0l-Hsz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ey8-ay-fge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-add" width="25" height="24"/>
+        <image name="inbox" width="750" height="1334"/>
+    </resources>
+</document>

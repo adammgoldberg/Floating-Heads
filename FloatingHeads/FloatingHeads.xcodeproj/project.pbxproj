@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067FE3D51BEA690B009CCFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE3D41BEA690B009CCFA7 /* AppDelegate.swift */; };
+		067FE3D71BEA690B009CCFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE3D61BEA690B009CCFA7 /* ViewController.swift */; };
+		067FE3DA1BEA690B009CCFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067FE3D81BEA690B009CCFA7 /* Main.storyboard */; };
+		067FE3DC1BEA690B009CCFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067FE3DB1BEA690B009CCFA7 /* Assets.xcassets */; };
+		067FE3DF1BEA690B009CCFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067FE3DD1BEA690B009CCFA7 /* LaunchScreen.storyboard */; };
+		067FE3EA1BEA690B009CCFA7 /* FloatingHeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE3E91BEA690B009CCFA7 /* FloatingHeadsTests.swift */; };
+		067FE3F51BEA690B009CCFA7 /* FloatingHeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE3F41BEA690B009CCFA7 /* FloatingHeadsUITests.swift */; };
+		067FE4031BEA6B10009CCFA7 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4021BEA6B10009CCFA7 /* FloatingButton.swift */; };
+		067FE4051BEA7D20009CCFA7 /* FloatingMenuControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4041BEA7D20009CCFA7 /* FloatingMenuControllerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067FE3E61BEA690B009CCFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067FE3C91BEA690B009CCFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067FE3D01BEA690B009CCFA7;
+			remoteInfo = FloatingHeads;
+		};
+		067FE3F11BEA690B009CCFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067FE3C91BEA690B009CCFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067FE3D01BEA690B009CCFA7;
+			remoteInfo = FloatingHeads;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067FE3D11BEA690B009CCFA7 /* FloatingHeads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingHeads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067FE3D41BEA690B009CCFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		067FE3D61BEA690B009CCFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067FE3D91BEA690B009CCFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067FE3DB1BEA690B009CCFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067FE3DE1BEA690B009CCFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		067FE3E01BEA690B009CCFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067FE3E51BEA690B009CCFA7 /* FloatingHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067FE3E91BEA690B009CCFA7 /* FloatingHeadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeadsTests.swift; sourceTree = "<group>"; };
+		067FE3EB1BEA690B009CCFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067FE3F01BEA690B009CCFA7 /* FloatingHeadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingHeadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067FE3F41BEA690B009CCFA7 /* FloatingHeadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeadsUITests.swift; sourceTree = "<group>"; };
+		067FE3F61BEA690C009CCFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067FE4021BEA6B10009CCFA7 /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		067FE4041BEA7D20009CCFA7 /* FloatingMenuControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenuControllerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067FE3CE1BEA690B009CCFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3E21BEA690B009CCFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3ED1BEA690B009CCFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067FE3C81BEA690B009CCFA7 = {
+			isa = PBXGroup;
+			children = (
+				067FE3D31BEA690B009CCFA7 /* FloatingHeads */,
+				067FE3E81BEA690B009CCFA7 /* FloatingHeadsTests */,
+				067FE3F31BEA690B009CCFA7 /* FloatingHeadsUITests */,
+				067FE3D21BEA690B009CCFA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		067FE3D21BEA690B009CCFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067FE3D11BEA690B009CCFA7 /* FloatingHeads.app */,
+				067FE3E51BEA690B009CCFA7 /* FloatingHeadsTests.xctest */,
+				067FE3F01BEA690B009CCFA7 /* FloatingHeadsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067FE3D31BEA690B009CCFA7 /* FloatingHeads */ = {
+			isa = PBXGroup;
+			children = (
+				067FE3D41BEA690B009CCFA7 /* AppDelegate.swift */,
+				067FE3D61BEA690B009CCFA7 /* ViewController.swift */,
+				067FE3D81BEA690B009CCFA7 /* Main.storyboard */,
+				067FE4021BEA6B10009CCFA7 /* FloatingButton.swift */,
+				067FE4041BEA7D20009CCFA7 /* FloatingMenuControllerViewController.swift */,
+				067FE3DB1BEA690B009CCFA7 /* Assets.xcassets */,
+				067FE3DD1BEA690B009CCFA7 /* LaunchScreen.storyboard */,
+				067FE3E01BEA690B009CCFA7 /* Info.plist */,
+			);
+			path = FloatingHeads;
+			sourceTree = "<group>";
+		};
+		067FE3E81BEA690B009CCFA7 /* FloatingHeadsTests */ = {
+			isa = PBXGroup;
+			children = (
+				067FE3E91BEA690B009CCFA7 /* FloatingHeadsTests.swift */,
+				067FE3EB1BEA690B009CCFA7 /* Info.plist */,
+			);
+			path = FloatingHeadsTests;
+			sourceTree = "<group>";
+		};
+		067FE3F31BEA690B009CCFA7 /* FloatingHeadsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				067FE3F41BEA690B009CCFA7 /* FloatingHeadsUITests.swift */,
+				067FE3F61BEA690C009CCFA7 /* Info.plist */,
+			);
+			path = FloatingHeadsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067FE3D01BEA690B009CCFA7 /* FloatingHeads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067FE3F91BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeads" */;
+			buildPhases = (
+				067FE3CD1BEA690B009CCFA7 /* Sources */,
+				067FE3CE1BEA690B009CCFA7 /* Frameworks */,
+				067FE3CF1BEA690B009CCFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingHeads;
+			productName = FloatingHeads;
+			productReference = 067FE3D11BEA690B009CCFA7 /* FloatingHeads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		067FE3E41BEA690B009CCFA7 /* FloatingHeadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067FE3FC1BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeadsTests" */;
+			buildPhases = (
+				067FE3E11BEA690B009CCFA7 /* Sources */,
+				067FE3E21BEA690B009CCFA7 /* Frameworks */,
+				067FE3E31BEA690B009CCFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067FE3E71BEA690B009CCFA7 /* PBXTargetDependency */,
+			);
+			name = FloatingHeadsTests;
+			productName = FloatingHeadsTests;
+			productReference = 067FE3E51BEA690B009CCFA7 /* FloatingHeadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		067FE3EF1BEA690B009CCFA7 /* FloatingHeadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067FE3FF1BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeadsUITests" */;
+			buildPhases = (
+				067FE3EC1BEA690B009CCFA7 /* Sources */,
+				067FE3ED1BEA690B009CCFA7 /* Frameworks */,
+				067FE3EE1BEA690B009CCFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067FE3F21BEA690B009CCFA7 /* PBXTargetDependency */,
+			);
+			name = FloatingHeadsUITests;
+			productName = FloatingHeadsUITests;
+			productReference = 067FE3F01BEA690B009CCFA7 /* FloatingHeadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067FE3C91BEA690B009CCFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Adam Goldberg";
+				TargetAttributes = {
+					067FE3D01BEA690B009CCFA7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					067FE3E41BEA690B009CCFA7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 067FE3D01BEA690B009CCFA7;
+					};
+					067FE3EF1BEA690B009CCFA7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 067FE3D01BEA690B009CCFA7;
+					};
+				};
+			};
+			buildConfigurationList = 067FE3CC1BEA690B009CCFA7 /* Build configuration list for PBXProject "FloatingHeads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067FE3C81BEA690B009CCFA7;
+			productRefGroup = 067FE3D21BEA690B009CCFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067FE3D01BEA690B009CCFA7 /* FloatingHeads */,
+				067FE3E41BEA690B009CCFA7 /* FloatingHeadsTests */,
+				067FE3EF1BEA690B009CCFA7 /* FloatingHeadsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067FE3CF1BEA690B009CCFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067FE3DF1BEA690B009CCFA7 /* LaunchScreen.storyboard in Resources */,
+				067FE3DC1BEA690B009CCFA7 /* Assets.xcassets in Resources */,
+				067FE3DA1BEA690B009CCFA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3E31BEA690B009CCFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3EE1BEA690B009CCFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067FE3CD1BEA690B009CCFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067FE3D71BEA690B009CCFA7 /* ViewController.swift in Sources */,
+				067FE4051BEA7D20009CCFA7 /* FloatingMenuControllerViewController.swift in Sources */,
+				067FE3D51BEA690B009CCFA7 /* AppDelegate.swift in Sources */,
+				067FE4031BEA6B10009CCFA7 /* FloatingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3E11BEA690B009CCFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067FE3EA1BEA690B009CCFA7 /* FloatingHeadsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067FE3EC1BEA690B009CCFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067FE3F51BEA690B009CCFA7 /* FloatingHeadsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067FE3E71BEA690B009CCFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067FE3D01BEA690B009CCFA7 /* FloatingHeads */;
+			targetProxy = 067FE3E61BEA690B009CCFA7 /* PBXContainerItemProxy */;
+		};
+		067FE3F21BEA690B009CCFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067FE3D01BEA690B009CCFA7 /* FloatingHeads */;
+			targetProxy = 067FE3F11BEA690B009CCFA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		067FE3D81BEA690B009CCFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067FE3D91BEA690B009CCFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067FE3DD1BEA690B009CCFA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067FE3DE1BEA690B009CCFA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067FE3F71BEA690C009CCFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		067FE3F81BEA690C009CCFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067FE3FA1BEA690C009CCFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatingHeads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067FE3FB1BEA690C009CCFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatingHeads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		067FE3FD1BEA690C009CCFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloatingHeadsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingHeads.app/FloatingHeads";
+			};
+			name = Debug;
+		};
+		067FE3FE1BEA690C009CCFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloatingHeadsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingHeads.app/FloatingHeads";
+			};
+			name = Release;
+		};
+		067FE4001BEA690C009CCFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloatingHeadsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FloatingHeads;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		067FE4011BEA690C009CCFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloatingHeadsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lighthouse.FloatingHeadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FloatingHeads;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067FE3CC1BEA690B009CCFA7 /* Build configuration list for PBXProject "FloatingHeads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067FE3F71BEA690C009CCFA7 /* Debug */,
+				067FE3F81BEA690C009CCFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067FE3F91BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067FE3FA1BEA690C009CCFA7 /* Debug */,
+				067FE3FB1BEA690C009CCFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		067FE3FC1BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067FE3FD1BEA690C009CCFA7 /* Debug */,
+				067FE3FE1BEA690C009CCFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		067FE3FF1BEA690C009CCFA7 /* Build configuration list for PBXNativeTarget "FloatingHeadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067FE4001BEA690C009CCFA7 /* Debug */,
+				067FE4011BEA690C009CCFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067FE3C91BEA690B009CCFA7 /* Project object */;
+}
