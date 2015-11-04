@@ -74,8 +74,8 @@ class FloatingMenuControllerViewController: UIViewController {
     
     
     func createButtons() {
-        var counter = 2
-        let modelImages = ["model-4", "model-5", "model-6", "model-7", "model-8"]
+        var counter = 1
+        let modelImages = ["icon-add", "model-4", "model-5", "model-6", "model-7", "model-8"]
 
         for modelString in modelImages {
             let modelImage = UIImage(named: modelString)
@@ -86,7 +86,7 @@ class FloatingMenuControllerViewController: UIViewController {
             var newPosition = self.buttonInfo
             newPosition.origin.y -= CGFloat(yMultiplied)
             
-            let aFloatingButton = FloatingButton(frame: newPosition, image: modelImage!, backgroundColor: UIColor.whiteColor())
+            let aFloatingButton = FloatingButton(frame: newPosition, image: modelImage!, backgroundColor: UIColor.flatBlueColor())
             aFloatingButton.tag = counter
             aFloatingButton.addTarget(self, action: "dismissBlur:", forControlEvents: .TouchUpInside)
             counter += 1
